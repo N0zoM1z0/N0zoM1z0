@@ -54,6 +54,8 @@ The lab rule is simple: **simulation may suggest; the shipped game gets the fina
 
 - **Proof-carrying spell cards** — [zkTH06](https://github.com/N0zoM1z0/zkTH06) starts from differential traces against the shipped game, rebuilds gameplay semantics a boundary at a time, and feeds private replay input into OpenVM proofs. Apparently “did this run really happen?” is now a zero-knowledge question.
 
+- **The university itself** — the joke got out of hand, so [幻想鄉立東方大學](https://n0zom1z0.github.io/touhou-university/) now has seven schools, admissions, course registration, exams, thesis defences, research ethics, fieldwork, housing, healthcare, incident dossiers, careers, alumni, and a suspicious amount of lunar paperwork. There is also a hidden PHANTASM curriculum, because apparently ordinary higher education was not complicated enough.
+
 ## 🎛️ Department of Synthetic Voices & Hit Circles
 
 - **[VOCALOID MCP](https://github.com/N0zoM1z0/vocaloid-mcp)** — an MCP server that lets coding agents compose, tune, render, mix, and audit native VOCALOID3/4 projects. It can validate the project and its native rendering path. It cannot prove that the song is good; human listening retains jurisdiction.
