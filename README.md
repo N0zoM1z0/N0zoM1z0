@@ -10,6 +10,10 @@
 
 **Reverse engineering · game systems · music tooling · formal methods · zero-knowledge systems**
 
+<br>
+
+![Visitors from the Outside World](https://komarev.com/ghpvc/?username=N0zoM1z0&label=Visitors%20from%20the%20Outside%20World&color=blueviolet&abbreviated=true)
+
 </div>
 
 My GitHub is what happens when a Touhou fan treats curiosity as an incident-response process. This has caused several incidents.
