@@ -1,65 +1,51 @@
 <div align="center">
 
-<a href="https://n0zom1z0.github.io/touhou-university/">
-  <img src="https://raw.githubusercontent.com/N0zoM1z0/touhou-university/main/assets/crest.svg" width="80" alt="TouHou University crest">
-</a>
-
 # Hi, I'm N0zoM1z0 👋
 
-### 🔬 Senior Incident Resolver @ [Touhou-Lab](https://github.com/Touhou-Lab) · ⛩ Founding President of [@Touhou-University](https://n0zom1z0.github.io/touhou-university/) · 🌏 Outside-World Student @ [Tsinghua University](https://www.tsinghua.edu.cn/en/)
+</div>
 
-**Reverse engineering · game systems · music tooling · formal methods · zero-knowledge systems**
+The name `N0zoM1z0` comes from Nozomi and Mizore in [*Liz and the Blue Bird*](https://liz-bluebird.com/), which is my favorite film. Most days, I do security research at Tsinghua University's INSC, where I'm currently focused on formal verification and zero-knowledge systems. I also reconstruct Touhou games, and that work often turns into other experiments.
 
-<br>
+I write about some of these projects in more detail on my [personal site](https://n0zom1z0.github.io/).
+
+<div align="center">
 
 ![Visitors from the Outside World](https://komarev.com/ghpvc/?username=N0zoM1z0&label=Visitors%20from%20the%20Outside%20World&color=blueviolet&abbreviated=true)
 
 </div>
 
-My GitHub is what happens when a Touhou fan treats curiosity as incident response. This has caused several incidents.
+## 🛠️ What I'm Working On
 
-The name `N0zoM1z0` is **Nozomi + Mizore**, from [*Liz and the Blue Bird*](https://liz-bluebird.com/), with just enough leetspeak to survive as an internet handle. That probably also explains why music keeps finding its way into repositories that were supposed to be about something else.
+- **Formal verification.** My research applies formal verification to the security of network protocols such as DNS and BGP.
+- **Zero knowledge and zkVMs.** With [Bera Buddies](https://github.com/berabuddies), I'm exploring domain-specific zkVMs and broader questions about how zkVMs are designed, including where compiler optimization fits in.
+- **Agents and AI for math.** With [morluto](https://github.com/morluto), I'm exploring AI for math and building [Jacobian](https://github.com/morluto/jacobian), a set of mathematical tools that agents can use and combine. We recently put forward a [proposed complete solution to Erdős Problem 81](https://github.com/N0zoM1z0/erdos-81).
+- **Touhou.** I'm reconstructing, porting, and modding Touhou games, and trying out ideas from formal methods, zero knowledge, and fuzzing along the way.
 
-I reverse engineer old games, build agents that have to survive the games they claim to understand, and use formal methods whenever “looks right” stops being a useful standard. Sometimes I also ask coding agents to make IA sing.
+Most of my research is still unpublished, so the related repositories are private for now. The latest work I can talk about is *Principled Discovery of DNS Cache Poisoning Vulnerabilities in Bailiwick Enforcement*, accepted at NDSS 2027. That's why the public side of my GitHub is mostly Touhou: I'm a fan who can't help bringing my security research habits to the games.
 
-If a postmortem grows too large for a README, it usually escapes to my **[personal site](https://n0zom1z0.github.io/)**.
+## ⛩️ Touhou Projects
 
-## 📟 Gensokyo Incident Board
+- **Reconstruction, ports, and mods.** I'm reconstructing [TH04](https://github.com/N0zoM1z0/th04), [TH08](https://github.com/N0zoM1z0/th08), [TH09](https://github.com/N0zoM1z0/th09), [TH09.5](https://github.com/N0zoM1z0/th095), [TH10](https://github.com/N0zoM1z0/th10), and [TH10.5](https://github.com/N0zoM1z0/th105). [TH08 Web](https://github.com/N0zoM1z0/th08-web) brings Imperishable Night to the browser with your own retail game files; [TH08 Mods](https://github.com/N0zoM1z0/th08-mods) brings osu!-style modifiers like Hidden and Flashlight into the same game.
 
-What I'm working on right now, translated into the University's preferred reporting format.
+*TH08 Mods in action: Hidden, Blind Spot, and Flashlight, all running in the browser port of Imperishable Night.*
 
-| Incident | Current response |
-| --- | --- |
-| `th08.exe` escaped its original habitat | Keep the reconstructed 1.00d code honest, run it natively on Linux, and make the same game logic survive a browser tab: [th08](https://github.com/N0zoM1z0/th08) · [th08-web](https://github.com/N0zoM1z0/th08-web). |
-| Danmaku files are far too trusting | [DanmakuFuzz](https://github.com/Touhou-Lab/DanmakuFuzz) mutates ECL, replays, ANM, and retail file formats in fast campaigns, then asks the shipped game under Wine whether the weirdness is real. |
-| Lunatic still refuses to clear itself | [TH06](https://github.com/N0zoM1z0/touhou-solver-th06), [TH06 RL](https://github.com/N0zoM1z0/touhou-solver-th06-rl), [TH08](https://github.com/N0zoM1z0/touhou-solver-th08), [TH08 RL](https://github.com/N0zoM1z0/touhou-solver-th08-rl), [TH10.5](https://github.com/N0zoM1z0/touhou-solver-th105), and [PC-98 RL](https://github.com/Touhou-Lab/touhou-pc98-rl) are all variations on the same long-running incident: read the real game, return controlled input, and somehow make the machine learn to dodge the bullets for me. The dream is simple: **Lunatic NMNB, with my hands nowhere near the keyboard.** XD |
-| A private TH06 replay says “trust me” | [zkTH06](https://github.com/N0zoM1z0/zkTH06) keeps pulling more of the retail game's frame-by-frame semantics across the proof boundary and into OpenVM. |
-| Coding agents all became the same polite intern | [Gensokyo Skills](https://github.com/N0zoM1z0/gensokyo-skills) gives Reimu, Marisa, Yukari, Nitori, and friends genuinely different problem-solving workflows—and evals to catch them if they collapse back into generic advice. |
+<p align="center">
+  <img src="./assets/th08-mods.png" width="760" alt="TH08 Mods running Imperishable Night in a browser with Hidden, Blind Spot, and Flashlight selected">
+</p>
 
-## ⛩️ Department of Danmaku Engineering
+- **Solvers and RL.** The dream is to build a solver that clears a TH08 Lunatic route NMNB, with my hands nowhere near the keyboard. Along the way I've been working on [TH06](https://github.com/N0zoM1z0/touhou-solver-th06), [TH06 RL](https://github.com/N0zoM1z0/touhou-solver-th06-rl), [TH08](https://github.com/N0zoM1z0/touhou-solver-th08), [TH08 RL](https://github.com/N0zoM1z0/touhou-solver-th08-rl), [TH10.5](https://github.com/N0zoM1z0/touhou-solver-th105), and [PC-98 RL](https://github.com/Touhou-Lab/touhou-pc98-rl).
 
-Most of my office hours are still spent investigating incidents in Gensokyo.
+- **Fuzzing and formal methods.** [DanmakuFuzz](https://github.com/Touhou-Lab/DanmakuFuzz) mutates scripts, replays, and game files, then checks what actually happens in the shipped games. [touhou-formal](https://github.com/N0zoM1z0/touhou-formal) uses Lean and SMT to model the games' script VMs and find counterexamples to assumptions about them.
 
-The lab rule is simple: **simulation may suggest; the shipped game gets the final say.**
+- **Zero knowledge.** [zkTH06](https://github.com/N0zoM1z0/zkTH06) is my attempt to prove a TH06 clear without publishing the replay that produced it. The current architecture uses OpenVM; I may try a domain-specific zkVM in a later version.
 
-- **Reconstruction with receipts** — [TH07](https://github.com/N0zoM1z0/th07), [TH08](https://github.com/N0zoM1z0/th08), and [TH10.5](https://github.com/N0zoM1z0/th105) are source-reconstruction projects tied back to their original Japanese executables. [Touhou Reverse Engineering](https://github.com/N0zoM1z0/touhou-reverse-engineering) holds the address maps, runtime experiments, patches, and other evidence gathered along the way. “Looks equivalent” is not a matching criterion.
+- **TouHou University.** [幻想鄉立東方大學](https://n0zom1z0.github.io/touhou-university/) started as a joke about what a university in Gensokyo would look like. I kept building it out until it felt like a place someone might actually attend, with its own courses, campus life, and academic bureaucracy. I have the honor of serving as its founding president.
 
-- **Getting old games to run somewhere they were never invited** — the reconstructed TH08 code now has a playable modern Linux path, while [TH08 Web](https://github.com/N0zoM1z0/th08-web) compiles the game logic to WebAssembly and runs entirely in the browser with locally supplied retail DAT files. One endless night, now also a browser problem.
+## 🎵 Music and Rhythm Games
 
-- **Agents that answer to the game** — the TH06, TH08, and TH10.5 solvers each use a different mix of state extraction, planning, experiments, and learning, but they share one contract: observe the real game, act through controlled input, and do not award shrine credit for a route that only works in a convenient model. The newer [TH06 RL](https://github.com/N0zoM1z0/touhou-solver-th06-rl), [TH08 RL](https://github.com/N0zoM1z0/touhou-solver-th08-rl), and [PC-98 RL](https://github.com/Touhou-Lab/touhou-pc98-rl) experiments keep learning behind explicit safety and evidence boundaries.
+- I built [VOCALOID MCP](https://github.com/N0zoM1z0/vocaloid-mcp) so coding agents can work on native VOCALOID3/4 projects all the way from composing and tuning to rendering and mixing. It can audit the project and check the native rendering path, though I still have to listen to decide whether the song is any good.
 
-- **Fuzzing the spell machinery** — [DanmakuFuzz](https://github.com/Touhou-Lab/DanmakuFuzz) treats ECL timelines, replay payloads, ANM resources, and game file formats as structured mutation targets. Headless execution is the fast scout; reduction makes the result understandable; Wine and the retail game decide whether a finding gets promoted.
-
-- **Faster Gensokyo, with disclaimers** — [th06-headless](https://github.com/N0zoM1z0/th06-headless) strips TH06 down to a deterministic accelerated Linux logic runtime for solver, replay, and RL research. It is useful for generating evidence quickly. It is deliberately not allowed to appoint itself the oracle.
-
-- **Proof-carrying spell cards** — [zkTH06](https://github.com/N0zoM1z0/zkTH06) starts from differential traces against the shipped game, rebuilds gameplay semantics a boundary at a time, and feeds private replay input into OpenVM proofs. Apparently “did this run really happen?” is now a zero-knowledge question.
-
-- **The university itself** — the joke got out of hand, so [幻想鄉立東方大學](https://n0zom1z0.github.io/touhou-university/) now has seven schools, admissions, course registration, exams, thesis defences, research ethics, fieldwork, housing, healthcare, incident dossiers, careers, alumni, and a suspicious amount of lunar paperwork. There is also a hidden PHANTASM curriculum, because apparently ordinary higher education was not complicated enough.
-
-## 🎛️ Department of Synthetic Voices & Hit Circles
-
-- **[VOCALOID MCP](https://github.com/N0zoM1z0/vocaloid-mcp)** — an MCP server that lets coding agents compose, tune, render, mix, and audit native VOCALOID3/4 projects. It can validate the project and its native rendering path. It cannot prove that the song is good; human listening retains jurisdiction.
-- **[osu! Reverse Engineering](https://github.com/N0zoM1z0/osu-reverse-engineering)** — native parsers, planners, and in-process timing experiments for mania, taiko, and catch, plus a static analysis of the client's integrity mechanisms.
+- I've also been taking osu! apart, especially mania, taiko, and catch. [osu! Reverse Engineering](https://github.com/N0zoM1z0/osu-reverse-engineering) grew out of writing native parsers and planners for those modes, then running timing experiments inside the client and looking into its integrity mechanisms.
 
 *Catch autoplay field report: **99.93%, 2,806pp** on Flowering Night Fever. osu! later banned the account—fair enough, honestly XD. The experiment is over; the screenshot survives.*
 
@@ -69,48 +55,28 @@ The lab rule is simple: **simulation may suggest; the shipped game gets the fina
   </a>
 </p>
 
-- **[oszillator](https://github.com/N0zoM1z0/oszillator)** — drop an `.osz` into the browser and play. Web Audio owns the clock; Pixi owns the playfield; your beatmap never leaves your machine. [Try the live demo →](https://n0zom1z0.github.io/oszillator/)
+- I made [oszillator](https://github.com/N0zoM1z0/oszillator) because I wanted to drop an `.osz` file into the browser and just play it. Web Audio handles the timing, Pixi draws the playfield, and the beatmap stays on your machine. [Try the live demo →](https://n0zom1z0.github.io/oszillator/)
 
-## ∀ Department of Things That Should Actually Be True
+## 🔬 Research and Collaborations
 
-I spend a lot of time on programs that are supposed to justify themselves.
+- At [Tsinghua University](https://www.tsinghua.edu.cn/en/)'s INSC, I research the security of network protocols using formal verification. Some of that work eventually finds its way into papers.
 
-The recurring question is not just “did the checker accept it?” but **what exactly did we model, and is that actually the thing we meant to claim?**
+- I also work with [morluto](https://github.com/morluto/) at [Preference Labs](https://x.com/preftrade) on [Jacobian](https://github.com/morluto/jacobian), [LeanToken](https://github.com/morluto/leantoken), and [Preference](https://preference.net/). These projects bring together exact mathematics, finding the code that matters, and helping agents check the evidence before they settle on an answer.
 
-- **[VeriMorph](https://github.com/N0zoM1z0/verimorph)** — low-level program transformations with explicit semantics, checked side conditions, synthesis where search is actually useful, and translation validation before transformed bytes are allowed out. The x86-64 path stays narrow on purpose: unsupported cases are much better than quietly invented guarantees.
-
-- **[Sphinx Interrogator](https://github.com/N0zoM1z0/sphinx-interrogator)** — a deliberately leaky microcoded VM and a black-box interrogator trying to recover its hidden state. Instead of brute-forcing one noisy signal, it designs relational experiments, learns the hidden machine, and uses SMT/CEGIS to decide what question is worth asking next.
-
-- **[zkTH06](https://github.com/N0zoM1z0/zkTH06)** — the inevitable Touhou crossover episode. Start with frame-by-frame evidence from the retail game, make the executable semantics precise enough to reproduce, then ask a private replay to carry the witness through OpenVM. The proof is only as interesting as the boundary it actually covers.
-
-- **[ProofMark](https://github.com/N0zoM1z0/ProofMark)** — a privacy-preserving assessment workflow built around anonymous eligibility, blind marking, tamper-evident records, and Noir proofs. The point is not to put a gradebook on-chain; it is to prove the useful facts without exposing everything else.
-
-## 🌏 Appointments in the Outside World
-
-TouHou University approved my outside-world paperwork. Somehow.
-
-Current postings include:
-
-- **[Tsinghua University](https://www.tsinghua.edu.cn/en/)** — my current outside-world posting. I study how to find holes in the Great Hakurei Barrier, how to tell when something crossed it that should not have, and how to keep Gensokyo on the correct side of the boundary. Sometimes the incident report gets reformatted and submitted in the local academic format known as a *paper*.
-
-- **[Preference Labs](https://x.com/preftrade)** — with [morluto](https://github.com/morluto/), I work on [Jacobian](https://github.com/morluto/jacobian), [LeanToken](https://github.com/morluto/leantoken), and [Preference](https://preference.net/): exact mathematics, finding the code that matters, and getting agents to look at the evidence before they commit to a story.
-
-- **[Bera Buddies](https://github.com/berabuddies/)** — I'm a research intern working on zero knowledge, formal methods, and agent security. Most of the interesting work is still private; the Barrier is functioning as designed :3
+- I'm a research intern at [Bera Buddies](https://github.com/berabuddies/), where I work on zero knowledge, formal methods, and agent security. Most of what I'm doing there is still private.
 
 ## 🎧 After Office Hours
 
-When the work stops, the methodology becomes considerably less rigorous.
+Outside work, I spend a lot of time with visual novels, Touhou, and music. These are a few favorites that have stuck with me:
 
-- 🌿 **Visual novel:** Key's [*Rewrite*](https://key.visualarts.gr.jp/rewrite/index2.html). Favorite means favorite. I am not accepting review comments on this one.
+- 🌿 **Visual novel:** Key's [*Rewrite*](https://key.visualarts.gr.jp/rewrite/index2.html) is my favorite visual novel. I have my reasons, but I'm not taking review comments on this one.
 
-- 🕊️ **Liz:** I keep the complete 47-track [*Liz and the Blue Bird*](https://liz-bluebird.com/) soundtrack in DSF. Is that necessary? No. Is it staying that way? Absolutely.
+- 🕊️ **Liz:** I keep the complete 47-track [*Liz and the Blue Bird*](https://liz-bluebird.com/) soundtrack in DSF. There's no practical reason it has to be in that format; I just like it that way.
 
-- 🌕 **Lunar allegiance:** TH08 → Eientei → Kaguya → “竹取飛翔 ～ Lunatic Princess.” Eirin still handles incident response: `(ﾟ∀ﾟ)o彡゜えーりん！えーりん！` My music folder contains roughly thirty related files, which is probably enough evidence to stop calling this a casual preference. The arrangement I keep coming back to is nmk's [“sola”](https://booth.pm/ja/items/3195221) from *千紫万紅* (`MMO-12`, Reitaisai 9, 2012-05-27).
+- 🌕 **Lunar allegiance:** In Touhou, I always find my way back to TH08, Eientei, Kaguya, and “竹取飛翔 ～ Lunatic Princess.” Eirin is still my emergency contact: `(ﾟ∀ﾟ)o彡゜えーりん！えーりん！` I have roughly thirty related files in my music folder, so I probably can't call this a casual preference anymore. The arrangement I keep coming back to is nmk's [“sola”](https://booth.pm/ja/items/3195221) from *千紫万紅* (`MMO-12`, Reitaisai 9, 2012-05-27).
 
-- 🎤 **VOCALOID:** IA is my favorite voicebank; Natsume Chiaki's Miku track [“花色日和”](https://www.youtube.com/watch?v=4rDdRVm3q8U) from *天響ノ和樂2* is my favorite song. Favorite voice and favorite song are separate variables. Q.E.D. ...probably.
+- 🎤 **VOCALOID:** IA is my favorite voicebank, but my favorite song is Natsume Chiaki's Miku track [“花色日和”](https://www.youtube.com/watch?v=4rDdRVm3q8U) from *天響ノ和樂2*. Apparently, favorite voice and favorite song are separate variables. Q.E.D. ...probably.
 
-<div align="center">
+If you're interested in any of the things I work on or enjoy—Touhou, formal verification, zero-knowledge systems, music, VOCALOID, or AI agents—I'd love to hear from you. You can reach me on [X](https://x.com/r00tth3w0r1d).
 
-**Currently on call for danmaku incidents, lunar paperwork, singing robots, and theorems that looked much better before someone wrote down the statement.**
-
-</div>
+Viel Spaß beim Entdecken – die besten Ideen fangen oft mit einer seltsamen Frage an.
