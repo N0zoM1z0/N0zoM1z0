@@ -61,7 +61,7 @@ Most of my research is still unpublished, so the related repositories are privat
 
 - At [Tsinghua University](https://www.tsinghua.edu.cn/en/)'s INSC, I research the security of network protocols using formal verification. Some of that work eventually finds its way into papers.
 
-- I also work with [morluto](https://github.com/morluto/) at [Preference Labs](https://x.com/preftrade) on [Jacobian](https://github.com/morluto/jacobian), [LeanToken](https://github.com/morluto/leantoken), and [Preference](https://preference.net/). These projects bring together exact mathematics, finding the code that matters, and helping agents check the evidence before they settle on an answer.
+- I also work with [morluto](https://github.com/morluto/) at [Preference Labs](https://x.com/preftrade) on [REA](https://github.com/morluto/rea), [LeanToken](https://github.com/morluto/leantoken), [Jacobian](https://github.com/morluto/jacobian), and [Preference](https://preference.net/). These projects bring together understanding how systems work, finding the code that matters, doing exact mathematics, and helping agents check the evidence before they settle on an answer.
 
 - I'm a research intern at [Bera Buddies](https://github.com/berabuddies/), where I work on zero knowledge, formal methods, and agent security. Most of what I'm doing there is still private.
 
