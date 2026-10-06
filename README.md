@@ -8,11 +8,7 @@ The name `N0zoM1z0` comes from Nozomi and Mizore in [*Liz and the Blue Bird*](ht
 
 I write about some of these projects in more detail on my [personal site](https://n0zom1z0.github.io/).
 
-<div align="center">
-
-![Visitors from the Outside World](https://komarev.com/ghpvc/?username=N0zoM1z0&label=Visitors%20from%20the%20Outside%20World&color=blueviolet&abbreviated=true)
-
-</div>
+If you're interested in any of the things I work on or enjoy—Touhou, formal verification, zero-knowledge systems, music, VOCALOID, or AI agents—I'd love to hear from you. You can reach me on [X](https://x.com/r00tth3w0r1d) or my email [here](mailto:r00tth3w0r1d@gmail.com).
 
 ## 🛠️ What I'm Working On
 
@@ -76,7 +72,5 @@ Outside work, I spend a lot of time with visual novels, Touhou, and music. These
 - 🌕 **Lunar allegiance:** In Touhou, I always find my way back to TH08, Eientei, Kaguya, and “竹取飛翔 ～ Lunatic Princess.” Eirin is still my emergency contact: `(ﾟ∀ﾟ)o彡゜えーりん！えーりん！` I have roughly thirty related files in my music folder, so I probably can't call this a casual preference anymore. The arrangement I keep coming back to is nmk's [“sola”](https://booth.pm/ja/items/3195221) from *千紫万紅* (`MMO-12`, Reitaisai 9, 2012-05-27).
 
 - 🎤 **VOCALOID:** IA is my favorite voicebank, but my favorite song is Natsume Chiaki's Miku track [“花色日和”](https://www.youtube.com/watch?v=4rDdRVm3q8U) from *天響ノ和樂2*. Apparently, favorite voice and favorite song are separate variables. Q.E.D. ...probably.
-
-If you're interested in any of the things I work on or enjoy—Touhou, formal verification, zero-knowledge systems, music, VOCALOID, or AI agents—I'd love to hear from you. You can reach me on [X](https://x.com/r00tth3w0r1d).
 
 Viel Spaß beim Entdecken – die besten Ideen fangen oft mit einer seltsamen Frage an.
