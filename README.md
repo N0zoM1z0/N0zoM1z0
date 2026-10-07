@@ -22,7 +22,7 @@ Most of my research is still unpublished, so the related repositories are privat
 
 ## ⛩️ Touhou Projects
 
-- **Reconstruction, ports, and mods.** I'm reconstructing [TH03](https://github.com/N0zoM1z0/th03), [TH04](https://github.com/N0zoM1z0/th04), [TH07.5](https://github.com/N0zoM1z0/th075) , [TH08](https://github.com/N0zoM1z0/th08), [TH09](https://github.com/N0zoM1z0/th09), [TH09.5](https://github.com/N0zoM1z0/th095), [TH10](https://github.com/N0zoM1z0/th10), and [TH10.5](https://github.com/N0zoM1z0/th105). [TH08 Web](https://github.com/N0zoM1z0/th08-web) brings Imperishable Night to the browser with your own retail game files; [TH08 Mods](https://github.com/N0zoM1z0/th08-mods) brings osu!-style modifiers like Hidden and Flashlight into the same game.
+- **Reconstruction, ports, and mods.** I'm reconstructing [TH03](https://github.com/N0zoM1z0/th03), [TH04](https://github.com/N0zoM1z0/th04), [TH07.5](https://github.com/N0zoM1z0/th075) , [TH08](https://github.com/N0zoM1z0/th08), [TH09](https://github.com/N0zoM1z0/th09), [TH09.5](https://github.com/N0zoM1z0/th095), [TH10](https://github.com/N0zoM1z0/th10), [TH10.5](https://github.com/N0zoM1z0/th105), and [TH20](https://github.com/N0zoM1z0/th20). [TH08 Web](https://github.com/N0zoM1z0/th08-web) brings Imperishable Night to the browser with your own retail game files; [TH08 Mods](https://github.com/N0zoM1z0/th08-mods) brings osu!-style modifiers like Hidden and Flashlight into the same game.
 
 *TH08 Mods in action: Hidden, Blind Spot, and Flashlight, all running in the browser port of Imperishable Night.*
 
