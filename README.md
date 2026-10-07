@@ -12,6 +12,7 @@ You can reach me on [X](https://x.com/r00tth3w0r1d) or my email [here](mailto:r0
 
 ## 🛠️ What I'm Working On
 
+- **Agentic reverse engineering / REA.** With [morluto](https://github.com/morluto), I co-build [REA](https://github.com/morluto/rea) [![GitHub stars](https://img.shields.io/github/stars/morluto/rea?style=flat&color=gold)](https://github.com/morluto/rea), an agentic reverse-engineering system from app behavior down to native binaries. It recently crossed **10k stars** and hit **#1 on Trendshift Weekly**, which has been pretty wild to watch.
 - **Formal verification.** My research applies formal verification to the security of network protocols such as DNS and BGP.
 - **Zero knowledge and zkVMs.** With [Bera Buddies](https://github.com/berabuddies), I'm exploring domain-specific zkVMs and broader questions about how zkVMs are designed, including where compiler optimization fits in.
 - **Agents and AI for math.** With [morluto](https://github.com/morluto), I'm exploring AI for math and building [Jacobian](https://github.com/morluto/jacobian), a set of mathematical tools that agents can use and combine. We recently put forward a [proposed complete solution to Erdős Problem 81](https://github.com/N0zoM1z0/erdos-81).
