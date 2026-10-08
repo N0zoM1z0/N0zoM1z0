@@ -4,7 +4,9 @@
 
 </div>
 
-The name `N0zoM1z0` comes from Nozomi and Mizore in [*Liz and the Blue Bird*](https://liz-bluebird.com/), which is my favorite film. Most days, I do security research at Tsinghua University's INSC, where I'm currently focused on formal verification and zero-knowledge systems. I also reconstruct Touhou games, and that work often turns into other experiments.
+The name `N0zoM1z0` comes from Nozomi and Mizore in [*Liz and the Blue Bird*](https://liz-bluebird.com/), which is my favorite film. 
+
+Most days, I do security research at Tsinghua University's INSC, where I'm currently focused on formal verification and zero-knowledge systems. I also reconstruct Touhou games, and that work often turns into other experiments.
 
 I write about some of these projects in more detail on my [personal site](https://n0zom1z0.github.io/).
 
