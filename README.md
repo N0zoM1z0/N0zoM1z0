@@ -8,8 +8,6 @@ The name `N0zoM1z0` comes from Nozomi and Mizore in [*Liz and the Blue Bird*](ht
 
 Most days, I do research at Tsinghua University, where I'm currently focused on formal verification and zero-knowledge systems. I also reconstruct Touhou games, and that work often turns into other experiments.
 
-I write about some of these projects in more detail on my [personal site](https://n0zom1z0.github.io/).
-
 You can reach me on [X](https://x.com/r00tth3w0r1d) or my email [here](mailto:r00tth3w0r1d@gmail.com).
 
 ## 🛠️ What I'm Working On
