@@ -20,7 +20,7 @@ You can reach me on [X](https://x.com/r00tth3w0r1d) or my email [here](mailto:r0
 - **Agents and AI for math.** With [morluto](https://github.com/morluto), I'm exploring AI for math and building [Jacobian](https://github.com/morluto/jacobian), a set of mathematical tools that agents can use and combine. We recently put forward a [proposed complete solution to Erdős Problem 81](https://github.com/N0zoM1z0/erdos-81).
 - **Touhou.** I'm reconstructing, porting, and modding Touhou games, and trying out ideas from formal methods, zero knowledge, and fuzzing along the way.
 
-Most of my research is still unpublished, so the related repositories are private for now. The latest work I can talk about is *Principled Discovery of DNS Cache Poisoning Vulnerabilities in Bailiwick Enforcement*, accepted at NDSS 2027. That's why the public side of my GitHub is mostly Touhou: I'm a fan who can't help bringing my security research habits to the games.
+Most of my research is still unpublished, so the related repositories are private for now. That's why the public side of my GitHub is mostly Touhou: I'm a fan who can't help bringing my security research habits to the games.
 
 ## ⛩️ Touhou Projects
 
