@@ -6,7 +6,7 @@
 
 The name `N0zoM1z0` comes from Nozomi and Mizore in [*Liz and the Blue Bird*](https://liz-bluebird.com/), which is my favorite film. 
 
-Most days, I do security research at Tsinghua University's INSC, where I'm currently focused on formal verification and zero-knowledge systems. I also reconstruct Touhou games, and that work often turns into other experiments.
+Most days, I do security research at Tsinghua University, where I'm currently focused on formal verification and zero-knowledge systems. I also reconstruct Touhou games, and that work often turns into other experiments.
 
 I write about some of these projects in more detail on my [personal site](https://n0zom1z0.github.io/).
 
@@ -58,7 +58,7 @@ Most of my research is still unpublished, so the related repositories are privat
 
 ## 🔬 Research and Collaborations
 
-- At [Tsinghua University](https://www.tsinghua.edu.cn/en/)'s INSC, I research the security of network protocols using formal verification. Some of that work eventually finds its way into papers.
+- At [Tsinghua University](https://www.tsinghua.edu.cn/en/), I research the security of network protocols using formal verification. Some of that work eventually finds its way into papers.
 
 - I also work with [morluto](https://github.com/morluto/) at [Preference Labs](https://x.com/preftrade) on [REA](https://github.com/morluto/rea), [LeanToken](https://github.com/morluto/leantoken), [Jacobian](https://github.com/morluto/jacobian), and [Preference](https://preference.net/). These projects bring together understanding how systems work, finding the code that matters, doing exact mathematics, and helping agents check the evidence before they settle on an answer.
 
