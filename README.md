@@ -6,7 +6,7 @@
 
 The name `N0zoM1z0` comes from Nozomi and Mizore in [*Liz and the Blue Bird*](https://liz-bluebird.com/), which is my favorite film. 
 
-Most days, I do security research at Tsinghua University, where I'm currently focused on formal verification and zero-knowledge systems. I also reconstruct Touhou games, and that work often turns into other experiments.
+Most days, I do research at Tsinghua University, where I'm currently focused on formal verification and zero-knowledge systems. I also reconstruct Touhou games, and that work often turns into other experiments.
 
 I write about some of these projects in more detail on my [personal site](https://n0zom1z0.github.io/).
 
@@ -20,7 +20,7 @@ You can reach me on [X](https://x.com/r00tth3w0r1d) or my email [here](mailto:r0
 - **Agents and AI for math.** With [morluto](https://github.com/morluto), I'm exploring AI for math and building [Jacobian](https://github.com/morluto/jacobian), a set of mathematical tools that agents can use and combine. We recently put forward a [proposed complete solution to Erdős Problem 81](https://github.com/N0zoM1z0/erdos-81).
 - **Touhou.** I'm reconstructing, porting, and modding Touhou games, and trying out ideas from formal methods, zero knowledge, and fuzzing along the way.
 
-Most of my research is still unpublished, so the related repositories are private for now. That's why the public side of my GitHub is mostly Touhou: I'm a fan who can't help bringing my security research habits to the games.
+Most of my research is still unpublished, so the related repositories are private for now. That's why the public side of my GitHub is mostly Touhou: I'm a fan who can't help bringing my research habits to the games.
 
 ## ⛩️ Touhou Projects
 
